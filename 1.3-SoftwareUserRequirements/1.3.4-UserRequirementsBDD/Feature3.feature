@@ -1,4 +1,4 @@
-Feature Opportunity to sponsor participants in a sports competition.
+Feature: Opportunity to sponsor participants in a sports competition.
    Given I am a BaseCompetion user-sponsor.
    When I choose the desired competition.
      And I аm reviewing information about participants
