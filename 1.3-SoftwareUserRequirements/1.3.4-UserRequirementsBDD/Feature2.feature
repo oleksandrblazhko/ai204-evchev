@@ -1,5 +1,4 @@
-Feature: Browse and register for available sports competitions.
-   Given I am a BaseCompetion user-sportsman.
-   When I choose the desired competition.
-     And I get acquainted with the basic information about the event
-   Then I need to see the number of free and occupied places, sports, the achievements of already registered participants, the venue of the competition using an online map, and also the weather conditions on the day of the event
+Feature: Registration
+In order to Sign up
+As an unauthorized user
+I want to open a downloaded application, then fill in all mandatory fields (email, password, etc), redirect to the page that is intended for the type of account was selected during registration 
