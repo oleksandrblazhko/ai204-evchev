@@ -1,5 +1,4 @@
-Feature: Opportunity to sponsor participants in a sports competition.
-   Given I am a BaseCompetion user-sponsor.
-   When I choose the desired competition.
-     And I аm reviewing information about participants
-   Then I need to know the personal achievements of the participant of the competition, his strengths, basic information about the personality
+Feature: Selling a monthly subscription
+In order to Receive monthly subscription options depending on account type
+As an authorized user
+I want to open a downloaded application, then fill in all mandatory fields (card number, date, etc), get a subscription and enjoy new features.
