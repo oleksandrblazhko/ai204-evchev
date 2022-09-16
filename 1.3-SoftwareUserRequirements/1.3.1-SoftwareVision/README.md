@@ -1,0 +1,3 @@
+### Бачення програмного продукту
+
+**FOR** an athletes and people who are interested in sports competitions both in terms of entertainment and professional **WHO** application for access to general and necessary information of the competition, **THE** BaseCompetion **IS** mobile multi-platform software product **THAT** provides competition search and provides basic information and requirements of the competition, finding investors through a special loyalty program, as well as viewing venues and weather conditions during the competition to improve and simplify the work of ordinary users and business employees with the application. **UNLIKE** Weather Thermometer, Raceresult, Nextiva **OUR** the product provides a very convenient service at a reasonable price.
