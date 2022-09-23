@@ -37,7 +37,7 @@
         <tr>
             <td></td>
             <td>NFR1.10</td>
-            <td>Software Interface</td>
+            <td>Hardware</td>
             <td>Для правильної роботи програмного забезпечення потрібен Android версії 10 і більше або IOS версії 14 і більше</td>
         </tr>
         <tr>
