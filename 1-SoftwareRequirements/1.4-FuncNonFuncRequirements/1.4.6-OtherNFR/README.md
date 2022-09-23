@@ -40,5 +40,11 @@
             <td>Software Interface</td>
             <td>Для правильної роботи програмного забезпечення потрібен Android версії 10 і більше або IOS версії 14 і більше</td>
         </tr>
+        <tr>
+            <td></td>
+            <td>NFR1.11</td>
+            <td>Data Transfer Interface</td>
+            <td>Пропускна здатність серверу повинна становити не менше 1 ГБ/с</td>
+        </tr>
     </tbody>
 </table>
