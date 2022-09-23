@@ -34,6 +34,11 @@
             <td align="center">спосіб оплати</td>
             <td>банківська карта, Payeer, Paypal, BTC</td>
         </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">тип акаунту</td>
+            <td>акаунт для глядача, спортсмена, спонсора</td>
+        </tr>
         </tr>
     </tbody>
 </table>
