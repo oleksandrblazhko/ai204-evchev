@@ -18,8 +18,8 @@ CREATE TABLE users(
 	surname VARCHAR(50),
 	balance DECIMAL(10, 2) check (balance >= 0),
 	preferred_sport VARCHAR(50)
-	mobile VARCHAR,
-	email VARCHAR
+	mobile VARCHAR(50) CHECK(mobile ~* '^\+?3?8?(0[\s\.-]\d{2}[\s\.-]\d{3}[\s\.-]\d{2}[\s\.-]\d{2})$'),
+	email VARCHAR(50) CHECK(email ~* '^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$')
 );
 
 CREATE TABLE active_competitions(
