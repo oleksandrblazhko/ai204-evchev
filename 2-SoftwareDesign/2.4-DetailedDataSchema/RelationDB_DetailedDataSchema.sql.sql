@@ -18,6 +18,8 @@ CREATE TABLE users(
 	surname VARCHAR(50),
 	balance DECIMAL(10, 2) check (balance >= 0),
 	preferred_sport VARCHAR(50)
+	mobile VARCHAR,
+	email VARCHAR
 );
 
 CREATE TABLE active_competitions(
