@@ -1,0 +1,16 @@
+@startuml
+title Activity Diagram 
+
+start
+
+:User makes a request to display information about the competition; 
+:The program searches for the necessary information;
+
+if (Information found??) then (yes)
+  :Give information about competition;
+else (no)
+  :Required information not found;
+endif
+
+stop
+@enduml
