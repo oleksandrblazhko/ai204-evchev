@@ -1,0 +1,13 @@
+@startuml
+title Concept of Classes Diagram 
+
+Class User
+Class Viewer
+Class Sponsor
+Class Sportsman
+
+Sportsman --|> User : inheritance
+Sponsor"+" --> "+"Sportsman : sponsors
+Sponsor --|> User : inheritance
+Viewer --|> User : inheritance
+@enduml
