@@ -1,0 +1,14 @@
+@startuml
+title Usecase for Information system
+left to right direction
+skinparam packageStyle rect
+
+actor User
+
+rectangle {
+  User--> (Authorization)
+  (Viewing competitions) ..> (Authorization) : <<include>>
+  (Participation in competitions) ..> (Authorization) : <<include>>
+  (Viewing the weather) ..> (Authorization) : <<include>>
+}
+@enduml
