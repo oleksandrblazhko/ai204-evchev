@@ -14,7 +14,7 @@
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію: відсутні
             <td align="center">Екрана форма:
-            <br>![image](https://github.com/EvchevDenis/some/blob/main/1.png)</td>
+            <br>![image](https://github.com/EvchevDenis/some/blob/main/1.jpg)</td>
         </tr>
         <tr>
             <td align="center">NFR1.3</td>
@@ -24,7 +24,7 @@
             <br>1) В поле "Competition Name" внесено значення: New Competition
             <br><br>2) У вікні "Filters" вибрані потрібні фільтри 
             <td align="center">Екрана форма:
-            <br>![image](https://github.com/EvchevDenis/some/blob/main/2.png)</td>
+            <br>![image](https://github.com/EvchevDenis/some/blob/main/2.jpg)</td>
         </tr>
         <tr>
             <td align="center">NFR1.3</td>
@@ -33,7 +33,7 @@
             <br><br>Кроки сценарію: 
             <br>1) Натиснута кнопка "Search"
             <td align="center">Екрана форма:
-            <br>![image](https://github.com/EvchevDenis/some/blob/main/3.png)</td>
+            <br>![image](https://github.com/EvchevDenis/some/blob/main/3.jpg)</td>
         </tr>
     </tbody>
 </table>
