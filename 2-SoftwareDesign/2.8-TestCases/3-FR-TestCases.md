@@ -11,7 +11,7 @@
         <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.1</td>
-            <td align="left">Початкові умови: змагання competitionName ще не знайдене
+            <td align="left">Початкові умови: змагання NewCompetition ще не знайдене
             <br>Кроки сценарію:
             <br>1) competitionName = "NewCompetition"
             <br>2) filters[8]</td>
