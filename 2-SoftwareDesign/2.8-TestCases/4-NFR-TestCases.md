@@ -14,7 +14,7 @@
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію: відсутні
             <td align="center">Екрана форма:
-            <br> ![image](https://github.com/EvchevDenis/some/blob/main/1.jpg) </td>
+            <br> ![](https://drive.google.com/file/d/13BEiRoYYdH5UuuhncMtpYH3WbKRm0U81/view?usp=sharing) </td>
         </tr>
         <tr>
             <td align="center">NFR1.3</td>
