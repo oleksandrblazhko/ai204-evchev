@@ -1,0 +1,51 @@
+@startuml
+title Relation Schema
+hide circle
+
+entity "User" as user {
+  (PK)user_id
+  --
+  account_type
+  name
+  surname
+  balance
+  preferred_sport
+  (FK)sportsman_id
+  (FK)viewer_id
+  (FK)sponsor_id
+}
+
+entity "Sponsor" as sponsor {
+  (PK,FK)sponsor_id
+  --
+}
+
+entity "Viewer" as viewer {
+  (PK,FK)viewer_id
+  --
+  selected_competition
+}
+
+entity "Sportsman" as sportsman {
+  (PK,FK)sportsman_id
+  --
+  victories
+}
+
+entity "Sportsman_Sponsor" as sr_sn {
+  (PK,FK)sponsor_id
+  (PK,FK)sportsman_id
+  --
+  sportsman
+}
+
+user -- sponsor 
+user -- viewer 
+user -- sportsman 
+sponsor --{ user 
+viewer --{ user 
+sportsman --{ user 
+sponsor --{ sr_sn 
+sr_sn -up-{ sportsman 
+
+@enduml
