@@ -8,93 +8,51 @@
         </tr>
     </thead>
     <tbody>
-      <tr>
+        <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.1</td>
-            <td align="left">Початкові умови: відсутні
+            <td align="left">Початкові умови: змагання NewCompetition ще не знайдене
             <br>Кроки сценарію:
-            <br>1) filters[1]</td>
-            <td align="center">Результат = "PASSED"</td>
+            <br>1) competitionName = "NewCompetition"
+            <br>2) filters[8]</td>
+            <td align="center">Результат = 1</td>
         </tr>
-      <tr>
+        <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.2</td>
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію:
-            <br>1) filters[12]</td>
-            <td align="center">Результат = "PASSED"</td>
+            <br>1) competitionName = "1NewCompetition"
+            <br>2) filters[8]</td>
+            <td align="center">Результат = -1</td>
         </tr>
-      <tr>
+        <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.3</td>
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію:
-            <br>1) filters[10]</td>
-            <td align="center">Результат = "PASSED"</td>
+            <br>1) competitionName.length() > 50
+            <br>2) filters[8]</td>
+            <td align="center">Результат = -1</td>
         </tr>
-      <tr>
+        <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.4</td>
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію:
-            <br>1) filters[-6]</td>
-            <td align="center">Результат = "FAILED"</td>
+            <br>1) competitionName = "NewCompetition"
+            <br>2) filters[16]</td>
+            <td align="center">Результат = -2</td>
         </tr>
-       <tr>
+        <tr>
             <td align="center">FR1.2</td>
             <td align="center">TC1.5</td>
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію:
-            <br>1) filters[2]</td>
-            <td align="center">Результат = "PASSED"</td>
-        </tr>
-      <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.6</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) filters[18]</td>
-            <td align="center">Результат = "FAILED"</td>
-        </tr>
-        <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.7</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) competitionName = "Sweepstakes Today"</td>
-            <td align="center">Результат = "PASSED"</td>
-        </tr>
-        <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.8</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) competitionName = "5Bring People Together"</td>
-            <td align="center">Результат = "FAILED"</td>
-        </tr>
-        <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.9</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) competitionName = "Face to Face"</td>
-            <td align="center">Результат = "PASSED"</td>
-        </tr>
-        <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.10</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) competitionName = "Hunt for Sales"</td>
-            <td align="center">Результат = "PASSED"</td>
-        </tr>
-      <tr>
-            <td align="center">FR1.2</td>
-            <td align="center">TC1.11</td>
-            <td align="left">Початкові умови: відсутні
-            <br>Кроки сценарію:
-            <br>1) competitionName = "4Easter Egg Hunt"</td>
-            <td align="center">Результат = "FAILED"</td>
+            <br>1) competitionName = "2NewCompetition"
+            <br>2) filters[-2]</td>
+            <td align="center">Результат = -3</td>
         </tr>
     </tbody>
 </table>
+
