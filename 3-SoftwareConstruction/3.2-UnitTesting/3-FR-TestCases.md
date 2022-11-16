@@ -50,7 +50,7 @@
             <td align="left">Початкові умови: відсутні
             <br>Кроки сценарію:
             <br>1) competitionName = "2NewCompetition"
-            <br>2) filters[-2]</td>
+            <br>2) filters[82]</td>
             <td align="center">Результат = -3</td>
         </tr>
     </tbody>
