@@ -17,7 +17,7 @@
 
 `docker run --name evchev-postgres -p 5455:5432 -e POSTGRES_PASSWORD=4213 -w /scripts -v ${PWD}:/scripts -d --rm postgres`
 
-Крок 3. У Docker-контейнері blazhko-postgres виконаємо команду bash для початку роботу з облонкою командного рядку:
+Крок 3. У Docker-контейнері evchev-postgres виконаємо команду bash для початку роботу з облонкою командного рядку:
 
 `docker exec -it evchev-postgres bash`
 
